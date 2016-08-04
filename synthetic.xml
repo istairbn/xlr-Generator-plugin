@@ -1,0 +1,17 @@
+<!--
+     THIS CODE AND INFORMATION ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESSED OR
+     IMPLIED, INCLUDING BUT NOT LIMITED TO THE IMPLIED WARRANTIES OF MERCHANTABILITY AND/OR FITNESS
+     FOR A PARTICULAR PURPOSE. THIS CODE AND INFORMATION ARE NOT SUPPORTED BY XEBIALABS.
+-->
+<synthetic xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://www.xebialabs.com/deployit/synthetic"
+           xsi:schemaLocation="http://www.xebialabs.com/deployit/synthetic synthetic.xsd">
+  <type type="Generator.GeneratePowershellScripts" extends="xlrelease.PythonScript" >
+      <property name="servers"     category="input" kind="string" label="Servers" size="large"/>
+      <property name="script"    category="input" kind="string" label="Script" size="large"/>
+      <property name="remotePath"    category="input" kind="string" label="Remote Path"/>
+      <property name="username"    category="input" kind="string" label="Username"/>
+      <property name="password"    category="input" kind="string" label="Password" password="true" />    
+      <property name="port"    category="input" kind="integer" label="Port" default="0"/>    
+  </type>
+</synthetic>
